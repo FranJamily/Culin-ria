@@ -1,10 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
   	<meta charset="utf-8">
   	<meta name="viewport" content="initial-scale=1, width=device-width">
   	
-  	<link rel="stylesheet"  href="./style.css" />
+  	<link rel="stylesheet"  href="./styles/style.css" />
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria Serif:ital,wght@0,400;0,700;1,400&display=swap" />
   	
   	
@@ -13,7 +14,7 @@
 <body>
   	
   	<div class="image-1-parent">
-    		<img class="image-1-icon" alt="" src="image 1.png">
+    		<img class="image-1-icon" alt="" src="{% static /assets/image 1.png' %}">
     		
     		<i class="sabor-arte">Sabor & Arte</i>
     		<div class="sobremesas-marmitas-restaurant">Sobremesas          Marmitas          Restaurantes          Bebidas          Açaí          Lanches          Cafeterias          Saudável          Salgados</div>
