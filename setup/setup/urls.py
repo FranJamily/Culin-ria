@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from galeria.views import index
+from django.http import HttpResponseRedirect
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('galeria.urls')),
+    path('', lambda request: HttpResponseRedirect('/galeria/')),
 ]

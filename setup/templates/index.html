@@ -1,11 +1,11 @@
-{% load static %}
+{% load static%}
 <!DOCTYPE html>
 <html>
 <head>
   	<meta charset="utf-8">
   	<meta name="viewport" content="initial-scale=1, width=device-width">
   	
-  	<link rel="stylesheet"  href="./styles/style.css" />
+  	<link rel="stylesheet"  href="{% static 'styles/style.css' %}">
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria Serif:ital,wght@0,400;0,700;1,400&display=swap" />
   	
   	
@@ -14,7 +14,7 @@
 <body>
   	
   	<div class="image-1-parent">
-    		<img class="image-1-icon" alt="" src="{% static /assets/image 1.png' %}">
+    		<img class="image-1-icon" alt="" src="{% static 'imagens/image 1.png' %}">
     		
     		<i class="sabor-arte">Sabor & Arte</i>
     		<div class="sobremesas-marmitas-restaurant">Sobremesas          Marmitas          Restaurantes          Bebidas          Açaí          Lanches          Cafeterias          Saudável          Salgados</div>
@@ -35,27 +35,28 @@
     		</div>
     		<div class="frame-child2">
     		</div>
-    		<img class="image-2-icon" alt="" src="image 2.png">
+    		<img class="image-2-icon" alt="" src="{% static 'icones/icone1.png' %}">
     		
     		<b class="promoes">Promoções</b>
+            <img class="image-3-icon" alt="" src="{% static 'icones/icone2.png' %}">
     		<b class="doces">Doces</b>
-    		<img class="image-4-icon" alt="" src="image 4.png">
+    		<img class="image-4-icon" alt="" src="{% static 'icones/icone3.png' %}">
     		
     		<b class="cafs">Cafés</b>
-    		<img class="image-5-icon" alt="" src="image 5.png">
+    		<img class="image-5-icon" alt="" src="{% static 'icones/icone6.png' %}">
     		
     		<b class="favoritos">Favoritos</b>
-    		<img class="image-6-icon" alt="" src="image 6.png">
+    		<img class="image-6-icon" alt="" src="{% static 'icones/icone4.png' %}">
     		
     		<b class="saudvel">Saudável</b>
-    		<img class="image-7-icon" alt="" src="image 7.png">
+    		<img class="image-7-icon" alt="" src="{% static 'icones/icone5.png' %}">
     		
     		<b class="cupons">Cupons</b>
-    		<img class="image-icon" alt="" src="image.png">
+    		<img class="image-icon" alt="" src="{% static 'imagens/image1.png' %}">
     		
-    		<img class="image-icon1" alt="" src="image.png">
+    		<img class="image-icon1" alt="" src="{% static 'imagens/image2.png' %}">
     		
-    		<img class="image-icon2" alt="" src="image.png">
+    		<img class="image-icon2" alt="" src="{% static 'imagens/image3 (2).png' %}">
     		
   	</div>
   	
