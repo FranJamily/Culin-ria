@@ -1,105 +1,247 @@
-/* Reset básico */
-* {
-    margin: 0; /* Remove a margem padrão de todos os elementos */
-    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
-    box-sizing: border-box; /* Inclui o preenchimento e a borda no cálculo da largura e altura */
+.image-1-icon {
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    width: 1020px;
+    height: 305px;
+    object-fit: cover;
+}
+.sabor-arte {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 191px;
+    height: 47px;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0), 0 1px 0 rgba(0, 0, 0, 0), -1px 0 0 rgba(0, 0, 0, 0), 0 -1px 0 rgba(0, 0, 0, 0);
+}
+.sobremesas-marmitas-restaurant {
+    position: absolute;
+    top: 0px;
+    left: 271px;
+    font-size: 12px;
+    white-space: pre-wrap;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 732px;
+    height: 55px;
+}
+.comidas-saudveis {
+    position: absolute;
+    top: 284px;
+    left: 16px;
+    font-size: 36px;
+    display: flex;
+    color: #fff;
+    text-align: left;
+    align-items: center;
+    width: 368px;
+    height: 68px;
+}
+.span {
+    color: #e7e0ec;
+}
+.b {
+    position: absolute;
+    top: 361px;
+    left: 408px;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    width: 205px;
+    height: 42px;
+    color: #a2845e;
+}
+.frame-child {
+    position: absolute;
+    top: 451px;
+    left: 126px;
+    border-radius: 10px;
+    background-color: #f7ebeb;
+    width: 82px;
+    height: 92px;
+}
+.frame-item {
+    position: absolute;
+    top: 451px;
+    left: 801px;
+    border-radius: 10px;
+    background-color: #f7ebeb;
+    width: 82px;
+    height: 92px;
+}
+.frame-inner {
+    position: absolute;
+    top: 451px;
+    left: 666px;
+    border-radius: 10px;
+    background-color: #f7ebeb;
+    width: 82px;
+    height: 92px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 451px;
+    left: 531px;
+    border-radius: 10px;
+    background-color: #f7ebeb;
+    width: 82px;
+    height: 92px;
+}
+.frame-child1 {
+    position: absolute;
+    top: 451px;
+    left: 396px;
+    border-radius: 10px;
+    background-color: #f7ebeb;
+    width: 82px;
+    height: 92px;
+}
+.frame-child2 {
+    position: absolute;
+    top: 451px;
+    left: 261px;
+    border-radius: 10px;
+    background-color: #f7ebeb;
+    width: 82px;
+    height: 92px;
+}
+.image-2-icon {
+    position: absolute;
+    top: 456px;
+    left: 142px;
+    width: 51px;
+    height: 51px;
+    object-fit: cover;
+}
+.promoes {
+    position: absolute;
+    top: 515px;
+    left: 126px;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    width: 82px;
+    height: 25px;
+}
+.doces {
+    position: absolute;
+    top: 513px;
+    left: 261px;
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 82px;
+    height: 16px;
+}
+.image-4-icon {
+    position: absolute;
+    top: 460px;
+    left: 410px;
+    width: 54px;
+    height: 53px;
+    object-fit: cover;
+}
+.cafs {
+    position: absolute;
+    top: 515px;
+    left: 396px;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    width: 82px;
+    height: 25px;
+}
+.image-5-icon {
+    position: absolute;
+    top: 460px;
+    left: 815px;
+    width: 54px;
+    height: 53px;
+    object-fit: cover;
+}
+.favoritos {
+    position: absolute;
+    top: 515px;
+    left: 801px;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+}
+.image-6-icon {
+    position: absolute;
+    top: 460px;
+    left: 536px;
+    width: 71px;
+    height: 53px;
+    object-fit: cover;
+}
+.saudvel {
+    position: absolute;
+    top: 515px;
+    left: 531px;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    width: 82px;
+    height: 25px;
+}
+.image-7-icon {
+    position: absolute;
+    top: 464px;
+    left: 677px;
+    width: 60px;
+    height: 45px;
+    object-fit: cover;
+}
+.cupons {
+    position: absolute;
+    top: 515px;
+    left: 666px;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    width: 82px;
+    height: 28px;
+}
+.image-icon {
+    position: absolute;
+    top: 602px;
+    left: 16px;
+    border-radius: 5px;
+    width: 327px;
+    height: 157px;
+    object-fit: cover;
+}
+.image-icon1 {
+    position: absolute;
+    top: 602px;
+    left: 384px;
+    border-radius: 5px;
+    width: 293px;
+    height: 157px;
+    object-fit: cover;
+}
+.image-icon2 {
+    position: absolute;
+    top: 602px;
+    left: 707px;
+    border-radius: 5px;
+    width: 295px;
+    height: 157px;
+    object-fit: cover;
+}
+.image-1-parent {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 668px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 10px;
+    color: #000;
+    font-family: 'Inria Serif';
 }
 
-body {
-    font-family: "Inria Serif", serif; /* Define a fonte do corpo como Inria Serif */
-    background-color: #f0f0f0; /* Define a cor de fundo da página */
-    color: #333; /* Define a cor do texto */
-}
-
-/* Container principal */
-.container {
-    max-width: 1200px; /* Define a largura máxima do container */
-    margin: 20px auto; /* Centraliza o container horizontalmente com margens verticais */
-    padding: 20px; /* Adiciona preenchimento interno */
-    background: #fff; /* Define a cor de fundo do container */
-    border-radius: 10px; /* Arredonda os cantos do container */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao container */
-}
-
-/* Título principal */
-.title {
-    font-size: 36px; /* Define o tamanho da fonte do título */
-    font-weight: 700; /* Define o peso da fonte como negrito */
-    text-align: center; /* Centraliza o texto */
-    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
-}
-
-/* Estilos para as categorias */
-.categories {
-    display: flex; /* Define um layout flexível para as categorias */
-    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se não couberem */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    margin-bottom: 30px; /* Adiciona espaço abaixo das categorias */
-}
-
-.category {
-    background: #F7EBEB; /* Define a cor de fundo para cada categoria */
-    border-radius: 10px; /* Arredonda os cantos de cada categoria */
-    padding: 15px; /* Adiciona preenchimento interno */
-    margin: 10px; /* Adiciona margem ao redor de cada categoria */
-    width: 150px; /* Define uma largura fixa para cada categoria */
-    text-align: center; /* Centraliza o texto dentro da categoria */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
-    transition: transform 0.2s; /* Define uma transição suave para transformações */
-}
-
-.category:hover {
-    transform: scale(1.05); /* Aumenta o tamanho da categoria ao passar o mouse */
-}
-
-/* Estilo para seções adicionais */
-.section {
-    margin-top: 40px; /* Adiciona espaço acima de cada seção */
-}
-
-.section-title {
-    font-size: 24px; /* Define o tamanho da fonte para o título da seção */
-    font-weight: 600; /* Define o peso da fonte como semi-negrito */
-    margin-bottom: 10px; /* Adiciona espaço abaixo do título da seção */
-    text-align: center; /* Centraliza o texto */
-}
-
-/* Lista de itens */
-.item-list {
-    display: flex; /* Define um layout flexível para a lista de itens */
-    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se não couberem */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-}
-
-.item {
-    background: #e0e0e0; /* Define a cor de fundo para cada item */
-    border-radius: 8px; /* Arredonda os cantos de cada item */
-    padding: 10px; /* Adiciona preenchimento interno */
-    margin: 5px; /* Adiciona margem ao redor de cada item */
-    width: 200px; /* Define uma largura fixa para cada item */
-    text-align: center; /* Centraliza o texto dentro do item */
-    transition: background 0.3s; /* Define uma transição suave para a cor de fundo */
-}
-
-.item:hover {
-    background: #ccc; /* Muda a cor de fundo do item ao passar o mouse */
-}
-
-/* Estilo de botão */
-.button {
-    display: inline-block; /* Permite que o botão tenha propriedades de bloco e seja centralizado */
-    margin-top: 20px; /* Adiciona espaço acima do botão */
-    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
-    background: #4CAF50; /* Define a cor de fundo do botão */
-    color: white; /* Define a cor do texto do botão como branca */
-    border: none; /* Remove a borda padrão do botão */
-    border-radius: 5px; /* Arredonda os cantos do botão */
-    cursor: pointer; /* Altera o cursor para indicar que é clicável */
-    text-align: center; /* Centraliza o texto dentro do botão */
-    font-size: 16px; /* Define o tamanho da fonte do botão */
-    transition: background 0.3s; /* Define uma transição suave para a cor de fundo */
-}
-
-.button:hover {
-    background: #45a049; /* Muda a cor de fundo do botão ao passar o mouse */
-}
