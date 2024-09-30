@@ -1,255 +1,145 @@
 .image-1-icon {
-    position: absolute;
-    top: 55px;
-    left: 0px;
-    width: 1020px;
-    height: 305px;
-    object-fit: cover;
-}
-.sabor-arte {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    font-size: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 191px;
-    height: 47px;
-    text-shadow: 1px 0 0 rgba(0, 0, 0, 0), 0 1px 0 rgba(0, 0, 0, 0), -1px 0 0 rgba(0, 0, 0, 0), 0 -1px 0 rgba(0, 0, 0, 0);
-}
-.sobremesas-marmitas-restaurant {
-    position: absolute;
-    top: 0px;
-    left: 271px;
-    font-size: 12px;
-    white-space: pre-wrap;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    width: 732px;
-    height: 55px;
-}
-.comidas-saudveis {
-    position: absolute;
-    top: 284px;
-    left: 16px;
-    font-size: 36px;
-    display: flex;
-    color: #fff;
-    text-align: left;
-    align-items: center;
-    width: 368px;
-    height: 68px;
-}
-.span {
-    color: #e7e0ec;
-}
-.b {
-    position: absolute;
-    top: 361px;
-    left: 408px;
-    font-size: 36px;
-    letter-spacing: 0.1em;
-    display: inline-block;
-    width: 205px;
-    height: 42px;
-    color: #a2845e;
-}
-.frame-child {
-    position: absolute;
-    top: 451px;
-    left: 126px;
-    border-radius: 10px;
-    background-color: #f7ebeb;
-    width: 82px;
-    height: 92px;
-}
-.frame-item {
-    position: absolute;
-    top: 451px;
-    left: 801px;
-    border-radius: 10px;
-    background-color: #f7ebeb;
-    width: 82px;
-    height: 92px;
-}
-.frame-inner {
-    position: absolute;
-    top: 451px;
-    left: 666px;
-    border-radius: 10px;
-    background-color: #f7ebeb;
-    width: 82px;
-    height: 92px;
-}
-.rectangle-div {
-    position: absolute;
-    top: 451px;
-    left: 531px;
-    border-radius: 10px;
-    background-color: #f7ebeb;
-    width: 82px;
-    height: 92px;
-}
-.frame-child1 {
-    position: absolute;
-    top: 451px;
-    left: 396px;
-    border-radius: 10px;
-    background-color: #f7ebeb;
-    width: 82px;
-    height: 92px;
-}
-.frame-child2 {
-    position: absolute;
-    top: 451px;
-    left: 261px;
-    border-radius: 10px;
-    background-color: #f7ebeb;
-    width: 82px;
-    height: 92px;
-}
-.image-2-icon {
-    position: absolute;
-    top: 456px;
-    left: 142px;
-    width: 51px;
-    height: 51px;
-    object-fit: cover;
-}
-.promoes {
-    position: absolute;
-    top: 515px;
-    left: 126px;
-    letter-spacing: 0.1em;
-    display: inline-block;
-    width: 82px;
-    height: 25px;
-}
-.image-3-icon {
-    position: absolute;
-    top: 456px;
-    left: 142px;
-    width: 51px;
-    height: 51px;
-    object-fit: cover;
-}
-.doces {
-    position: absolute;
-    top: 513px;
-    left: 261px;
-    letter-spacing: 0.1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 82px;
-    height: 16px;
-}
-.image-4-icon {
-    position: absolute;
-    top: 460px;
-    left: 410px;
-    width: 54px;
-    height: 53px;
-    object-fit: cover;
-}
-.cafs {
-    position: absolute;
-    top: 515px;
-    left: 396px;
-    letter-spacing: 0.1em;
-    display: inline-block;
-    width: 82px;
-    height: 25px;
-}
-.image-5-icon {
-    position: absolute;
-    top: 460px;
-    left: 815px;
-    width: 54px;
-    height: 53px;
-    object-fit: cover;
-}
-.favoritos {
-    position: absolute;
-    top: 515px;
-    left: 801px;
-    letter-spacing: 0.1em;
-    display: inline-block;
-    width: 80px;
-    height: 25px;
-}
-.image-6-icon {
-    position: absolute;
-    top: 460px;
-    left: 536px;
-    width: 71px;
-    height: 53px;
-    object-fit: cover;
-}
-.saudvel {
-    position: absolute;
-    top: 515px;
-    left: 531px;
-    letter-spacing: 0.1em;
-    display: inline-block;
-    width: 82px;
-    height: 25px;
-}
-.image-7-icon {
-    position: absolute;
-    top: 464px;
-    left: 677px;
-    width: 60px;
-    height: 45px;
-    object-fit: cover;
-}
-.cupons {
-    position: absolute;
-    top: 515px;
-    left: 666px;
-    letter-spacing: 0.1em;
-    display: inline-block;
-    width: 82px;
-    height: 28px;
-}
-.image-icon {
-    position: absolute;
-    top: 602px;
-    left: 16px;
-    border-radius: 5px;
-    width: 327px;
-    height: 157px;
-    object-fit: cover;
-}
-.image-icon1 {
-    position: absolute;
-    top: 602px;
-    left: 384px;
-    border-radius: 5px;
-    width: 293px;
-    height: 157px;
-    object-fit: cover;
-}
-.image-icon2 {
-    position: absolute;
-    top: 602px;
-    left: 707px;
-    border-radius: 5px;
-    width: 295px;
-    height: 157px;
-    object-fit: cover;
-}
-.image-1-parent {
-    width: 100%;
-    position: center;
-    background-color: #fff;
-    height: 668px;
-    overflow: hidden;
-    text-align: center;
-    font-size: 10px;
-    color: #000;
-    font-family: 'Inria Serif';
+    position: absolute; /* Posiciona o elemento de forma absoluta em relação ao seu pai */
+    top: 55px; /* Define a distância do topo */
+    left: 0px; /* Define a distância da esquerda */
+    width: 1020px; /* Define a largura do elemento */
+    height: 305px; /* Define a altura do elemento */
+    object-fit: cover; /* Faz a imagem cobrir totalmente o espaço disponível */
 }
 
+.sabor-arte {
+    position: absolute; /* Posiciona o elemento de forma absoluta */
+    top: 0px; /* Define a distância do topo */
+    left: 0px; /* Define a distância da esquerda */
+    font-size: 32px; /* Define o tamanho da fonte */
+    display: flex; /* Utiliza flexbox para layout */
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    width: 191px; /* Define a largura do elemento */
+    height: 47px; /* Define a altura do elemento */
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0), 0 1px 0 rgba(0, 0, 0, 0), -1px 0 0 rgba(0, 0, 0, 0), 0 -1px 0 rgba(0, 0, 0, 0); /* Adiciona sombra ao texto */
+}
+
+.sobremesas-marmitas-restaurant {
+    position: absolute; /* Posiciona o elemento de forma absoluta */
+    top: 0px; /* Define a distância do topo */
+    left: 271px; /* Define a distância da esquerda */
+    font-size: 12px; /* Define o tamanho da fonte */
+    white-space: pre-wrap; /* Mantém quebras de linha e espaços em branco */
+    text-align: left; /* Alinha o texto à esquerda */
+    display: flex; /* Utiliza flexbox para layout */
+    align-items: center; /* Alinha verticalmente ao centro */
+    width: 732px; /* Define a largura do elemento */
+    height: 55px; /* Define a altura do elemento */
+}
+
+.comidas-saudveis {
+    position: absolute; /* Posiciona o elemento de forma absoluta */
+    top: 284px; /* Define a distância do topo */
+    left: 16px; /* Define a distância da esquerda */
+    font-size: 36px; /* Define o tamanho da fonte */
+    display: flex; /* Utiliza flexbox para layout */
+    color: #fff; /* Define a cor do texto como branco */
+    text-align: left; /* Alinha o texto à esquerda */
+    align-items: center; /* Alinha verticalmente ao centro */
+    width: 368px; /* Define a largura do elemento */
+    height: 68px; /* Define a altura do elemento */
+}
+
+.span {
+    color: #e7e0ec; /* Define a cor do texto */
+}
+
+.b {
+    position: absolute; /* Posiciona o elemento de forma absoluta */
+    top: 361px; /* Define a distância do topo */
+    left: 408px; /* Define a distância da esquerda */
+    font-size: 36px; /* Define o tamanho da fonte */
+    letter-spacing: 0.1em; /* Adiciona espaçamento entre letras */
+    display: inline-block; /* Permite que o elemento tenha largura e altura */
+    width: 205px; /* Define a largura do elemento */
+    height: 42px; /* Define a altura do elemento */
+    color: #a2845e; /* Define a cor do texto */
+}
+
+.frame-child,
+.frame-item,
+.frame-inner,
+.rectangle-div,
+.frame-child1,
+.frame-child2 {
+    position: absolute; /* Posiciona todos os elementos de forma absoluta */
+    top: 451px; /* Define a distância do topo (para todos os elementos) */
+    border-radius: 10px; /* Arredonda os cantos do elemento */
+    background-color: #f7ebeb; /* Define a cor de fundo */
+    width: 82px; /* Define a largura do elemento */
+    height: 92px; /* Define a altura do elemento */
+}
+
+.frame-child { left: 126px; } /* Define a posição à esquerda para este elemento */
+.frame-item { left: 801px; } /* Define a posição à esquerda para este elemento */
+.frame-inner { left: 666px; } /* Define a posição à esquerda para este elemento */
+.rectangle-div { left: 531px; } /* Define a posição à esquerda para este elemento */
+.frame-child1 { left: 396px; } /* Define a posição à esquerda para este elemento */
+.frame-child2 { left: 261px; } /* Define a posição à esquerda para este elemento */
+
+.image-2-icon,
+.image-3-icon,
+.image-4-icon,
+.image-5-icon,
+.image-6-icon,
+.image-7-icon {
+    position: absolute; /* Posiciona todos os elementos de forma absoluta */
+    object-fit: cover; /* Faz a imagem cobrir totalmente o espaço disponível */
+}
+
+.image-2-icon { top: 456px; left: 142px; width: 51px; height: 51px; } /* Define as dimensões e posição */
+.image-3-icon { top: 461px; left: 276px; width: 51px; height: 51px; } /* Define as dimensões e posição */
+.image-4-icon { top: 460px; left: 410px; width: 54px; height: 53px; } /* Define as dimensões e posição */
+.image-5-icon { top: 460px; left: 815px; width: 54px; height: 53px; } /* Define as dimensões e posição */
+.image-6-icon { top: 460px; left: 536px; width: 71px; height: 53px; } /* Define as dimensões e posição */
+.image-7-icon { top: 464px; left: 677px; width: 60px; height: 45px; } /* Define as dimensões e posição */
+
+.promoes,
+.doces,
+.cafs,
+.favoritos,
+.saudvel,
+.cupons {
+    position: absolute; /* Posiciona todos os elementos de forma absoluta */
+    letter-spacing: 0.1em; /* Adiciona espaçamento entre letras */
+    display: inline-block; /* Permite que o elemento tenha largura e altura */
+}
+
+.promoes { top: 515px; left: 126px; width: 82px; height: 25px; } /* Define a posição e dimensões */
+.doces { top: 513px; left: 261px; width: 82px; height: 16px; } /* Define a posição e dimensões */
+.cafs { top: 515px; left: 396px; width: 82px; height: 25px; } /* Define a posição e dimensões */
+.favoritos { top: 515px; left: 801px; width: 80px; height: 25px; } /* Define a posição e dimensões */
+.saudvel { top: 515px; left: 531px; width: 82px; height: 25px; } /* Define a posição e dimensões */
+.cupons { top: 515px; left: 666px; width: 82px; height: 28px; } /* Define a posição e dimensões */
+
+.image-icon,
+.image-icon1,
+.image-icon2 {
+    position: absolute; /* Posiciona todos os elementos de forma absoluta */
+    border-radius: 5px; /* Arredonda os cantos do elemento */
+    object-fit: cover; /* Faz a imagem cobrir totalmente o espaço disponível */
+}
+
+.image-icon { top: 602px; left: 16px; width: 327px; height: 157px; } /* Define a posição e dimensões */
+.image-icon1 { top: 602px; left: 384px; width: 293px; height: 157px; } /* Define a posição e dimensões */
+.image-icon2 { top: 602px; left: 707px; width: 295px; height: 157px; } /* Define a posição e dimensões */
+
+.image-1-parent {
+    width: 100%; /* Define a largura como 100% do elemento pai */
+    max-width: 1200px; /* Define uma largura máxima para o contêiner */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    position: relative; /* Permite que os filhos com posição absoluta sejam posicionados em relação a este elemento */
+    background-color: #fff; /* Define a cor de fundo como branco */
+    height: 668px; /* Define a altura do elemento */
+    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites do elemento */
+    text-align: center; /* Alinha o texto ao centro */
+    font-size: 10px; /* Define o tamanho da fonte */
+    color: #000; /* Define a cor do texto como preto */
+    font-family: 'Inria Serif'; /* Define a família da fonte */
+}
