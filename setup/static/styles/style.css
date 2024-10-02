@@ -2,7 +2,7 @@
     position: absolute; /* Posiciona o elemento de forma absoluta em relação ao seu pai */
     top: 55px; /* Define a distância do topo */
     left: 0px; /* Define a distância da esquerda */
-    width: 1200px; /* Define a largura do elemento */
+    width: 1020px; /* Define a largura do elemento */
     height: 305px; /* Define a altura do elemento */
     object-fit: cover; /* Faz a imagem cobrir totalmente o espaço disponível */
 }
@@ -132,7 +132,7 @@
 
 .image-1-parent {
     width: 100%; /* Define a largura como 100% do elemento pai */
-    max-width: 1200px; /* Define uma largura máxima para o contêiner */
+    max-width: 1020px; /* Define uma largura máxima para o contêiner */
     margin: 0 auto; /* Centraliza horizontalmente */
     position: relative; /* Permite que os filhos com posição absoluta sejam posicionados em relação a este elemento */
     background-color: hsl(0, 0%, 100%); /* Define a cor de fundo como branco */
