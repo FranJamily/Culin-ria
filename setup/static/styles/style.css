@@ -135,7 +135,7 @@
     max-width: 1200px; /* Define uma largura máxima para o contêiner */
     margin: 0 auto; /* Centraliza horizontalmente */
     position: relative; /* Permite que os filhos com posição absoluta sejam posicionados em relação a este elemento */
-    background-color: hsl(0, 9%, 94%); /* Define a cor de fundo como branco */
+    background-color: hsl(0, 0%, 100%); /* Define a cor de fundo como branco */
     height: 1020px; /* Define a altura do elemento */
     overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites do elemento */
     text-align: center; /* Alinha o texto ao centro */
