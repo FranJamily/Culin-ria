@@ -2,7 +2,7 @@
     position: absolute; /* Posiciona o elemento de forma absoluta em relação ao seu pai */
     top: 55px; /* Define a distância do topo */
     left: 0px; /* Define a distância da esquerda */
-    width: 1020px; /* Define a largura do elemento */
+    width: 1200px; /* Define a largura do elemento */
     height: 305px; /* Define a altura do elemento */
     object-fit: cover; /* Faz a imagem cobrir totalmente o espaço disponível */
 }
